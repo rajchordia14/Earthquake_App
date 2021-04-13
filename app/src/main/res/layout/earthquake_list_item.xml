@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+    <TextView
+        android:id="@+id/magnitude"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="8.9"
+        android:layout_width="0dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/location_offset"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="30km S of"
+        android:layout_width="0dp"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/primary_location"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="San Francisco CA"
+        android:layout_width="0dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="mar 6"
+        android:layout_width="0dp"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/time"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="3:00 PM"
+        android:layout_width="0dp"
+        android:padding="5dp"/>
+
+</LinearLayout>
